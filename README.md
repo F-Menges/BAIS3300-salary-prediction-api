@@ -54,12 +54,6 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
 }
 ```
 
-## To Do List
-
-[ ] :pencil2: Add error handling  
-[ ] :pencil2: Add application logging  
-[ ] :pencil2: Add /api/v1 url path
-
 ## Categorical variable mappings
 
 **_age mapping_**  
