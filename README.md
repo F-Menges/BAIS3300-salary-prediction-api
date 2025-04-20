@@ -38,7 +38,7 @@ This application uses Python [Flask](https://flask.palletsprojects.com/en/3.0.x/
 Send a GET request to the root route to learn about the api
 
 **/predict**  
-Send a POST request with JSON data to the /predict route to recieve back a salary prediction in JSON format {"predicted_salary": 00000.00}. Required data includes labels for categorical variables _age, gender, country, highest_deg, coding_exp, title_, and _company_size_. Data must be sent in this order.
+Send a POST request with JSON data to the /predict route to recieve back a salary prediction in JSON format {"predicted*salary": 00000.00}. Required data includes labels for categorical variables \_age, gender, country, highest_deg, coding_exp, title*, and _company_size_. Data must be sent in this order.
 
 ### Example JSON
 
@@ -85,6 +85,6 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
 
 ## Sample data
 
-If using mc_salary_predict_model.ml, with the variables 7, 0, 55, 3, 4, 13, and 2 should return a predicted salary of 95679.58.
+If using mc_salary_predict_model.ml, with the variables 7, 0, 55, 3, 4, 13, and 2 should return a predicted salary of 97312.87.
 
 ![Postman screenshot](postman_test.png)
